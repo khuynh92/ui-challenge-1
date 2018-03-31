@@ -1,0 +1,110 @@
+body {
+  margin: 5% auto;
+  width: 90%;
+  font-size: 2em;
+}
+
+section {
+  height: 1055px;
+}
+
+div {
+  display: table;
+  margin: auto;
+  width: 100%;
+  border: .01px solid;
+  background-color: gray;
+  border-bottom: none;
+  text-align: center;
+}
+
+p {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0%;
+}
+
+.a {
+  height: 7.109%;
+}
+
+.b {
+  height:  14.218%;
+}
+
+.c, .d {
+  height: 11.848%;
+} 
+
+.four-square {
+  border: none;
+  margin: auto;
+  padding-left: 0%;
+  height: 47.392%;}
+
+.four-square div {
+  padding-top: 100px;
+  height: 50%;
+  list-style-type: none;
+  display: inline-block;
+  width: 49.99%;
+  text-align: center;
+}
+
+.a, .c, .f, .g, .i {
+  background-color: lightgray;
+}
+
+.i {
+  height: 7.562%;
+
+}
+
+@media only screen and (min-width: 800px) {
+section{
+  height: 700px;
+  overflow: auto;
+}
+.a {
+  height: 14.285%;
+}
+
+.b {
+  float: left;
+  height: 85.71%;
+  width: 20.83%;
+  margin: 0;
+}
+
+.c, .d {
+  display: inline-block;
+  margin: 0;
+  width: 39.58%;
+  height: 28.57%;
+}
+.c p, .d p {
+  padding-top: 75px;
+  display:flex;
+  justify-content: center;
+}
+
+.d {
+  float: right; 
+}
+
+
+.four-square {
+  width: 79.16%;
+  height: 35.71%;
+}
+.four-square div {
+  width: 24.99%;
+  height: 99.99%;
+}
+
+.i{
+  width: 79.16%;
+  height: 21.42%;
+  float: right;
+}
+}
